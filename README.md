@@ -79,6 +79,45 @@ ________________________________________________________________________________
   15. Worked status of ec2 is shown in below figure
       ![use8](https://github.com/user-attachments/assets/b30220e2-9fe0-4034-8507-289bb257ed71)
 __________________________________________________________________________________________________________________________________________________________________________________
+# WHAT IS USER GROUP IN IAM
+ 1. User groups in IAM are used to manage permissions for multiple users frequently. instead of assigining permissions to each user individually, you can create a group, assing 
+    permissions to that group, and then add users to that group.
+# STEPS TO CREATE USER GROUPS IN IAM
+**STEP 1:**
+ 1. Go to IAM console
+ 2. Select the user groups option and click on create user group
+    1. Give the name for user group as shown in below figure
+       ![group](https://github.com/user-attachments/assets/926bfb95-8212-47ca-8d98-dd3ccc9a74ad)
+    2. No need to add user it is optional as shown in below figure
+       ![group  5](https://github.com/user-attachments/assets/61f258fa-0b30-49ad-b5fc-d3f8831c3c1b)
+    3. Attach the policies for the groups i choose s3full sevice as shown in below figure
+       ![group1](https://github.com/user-attachments/assets/0e7fb927-1ea4-4a4a-957f-ad8818e12a46)
+    4. Click on create user group then user group is created
+       
+**STEP 2:**
+  1. Go to users option and click on create user
+     1. Give the name tag
+     2. Select the provide user access to the aws management console option
+     3. select the i want to create IAM user option
+     4. select auto generated password in console password option
+     5. select these all options as shown in below figure
+        ![group2](https://github.com/user-attachments/assets/53ed5dcf-507c-4730-8a33-9409b069b54e)
+  2. Select the created group in user
+  3. Then the user is attached to the created group as shown in below figure
+     ![group3](https://github.com/user-attachments/assets/586222b9-2e84-403c-bd8e-97e2243e2e22)
+  4. Click on next and click on create user then it is created
+     
+**STEP 3:**
+  1. Go to user groups
+  2. Observe the created group there you see two users are attached as shown in below figure
+     ![group6](https://github.com/user-attachments/assets/1a125a1b-c8bc-4863-b4b6-a8a026981cd0)
+
+       
+
+       
+   
+   
+
       
        
          
